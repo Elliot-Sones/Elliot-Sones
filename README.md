@@ -1,5 +1,5 @@
 ## Hey there 👋 I'm Elliot
 
-##About Me
+### 💫About Me
 I am a first-year Computer Science student at Toronto Metropolitan University. I am very passionate about dealing with large data sets and machine learning.
  
