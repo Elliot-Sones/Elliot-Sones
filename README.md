@@ -1,6 +1,6 @@
 <h1 align="center">Hey There👋 I'm Elliot! </h1>
  
-## 💫About Me
+# 💫About Me
 I am a first-year student in Computer Science at Toronto Metropolitan University. I am very passionate about working with large datasets and machine learning.
 
 [Learn more about me on my personal website!](https://elliot-sones.vercel.app/)
@@ -8,6 +8,7 @@ I am a first-year student in Computer Science at Toronto Metropolitan University
 
 
 ## ✨My focuses 
+
 Machine Learning: 
 - Neural networks (MLP, CNNs, RNN, transformers) 
 - Python (Scikit-Learn)
@@ -21,3 +22,7 @@ Backend applications:
 - REST API design
 - Docker/Kubernetes (deployment)
 - Basic cloud (AWS, GCP, or Azure)
+
+Front end: 
+- ReactJS
+- NodeJS
