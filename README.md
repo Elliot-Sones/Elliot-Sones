@@ -11,7 +11,7 @@ I am a first-year student in Computer Science at Toronto Metropolitan University
 
 Machine Learning: 
 - Deep learning and Neural networks (MLP, CNNs, RNN (GRU+LSTM), transformers) 
-- Python (Pytorch+ Scikit-Learn)
+- Python (Pytorch + Scikit-Learn + TensorFlow)
 - Statistics + Plotting/mapping
 
 Backend applications:
