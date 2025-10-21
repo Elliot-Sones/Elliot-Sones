@@ -10,8 +10,8 @@ I am a first-year student in Computer Science at Toronto Metropolitan University
 ## ✨My focuses 
 
 Machine Learning: 
-- Neural networks (MLP, CNNs, RNN (GRU+LSTM), transformers) 
-- Python (Scikit-Learn)
+- Deep learning and Neural networks (MLP, CNNs, RNN (GRU+LSTM), transformers) 
+- Python (Pytorch+ Scikit-Learn)
 - Statistics + Plotting/mapping
 
 Backend applications:
