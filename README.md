@@ -1,7 +1,7 @@
 <h1 align="center">Hey There👋 I'm Elliot! </h1>
  
 # 💫About Me
-I am a first-year student in Computer Science at Toronto Metropolitan University. I am very passionate about deep learning, machine learning and dealing with large datasets.
+I am a first-year student in Computer Science at Toronto Metropolitan University. I am very passionate about deep learning, machine learning and data science!
 
 
 
