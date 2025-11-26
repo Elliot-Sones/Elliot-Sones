@@ -3,6 +3,7 @@
 # 💫About Me
 I am a first-year student in Computer Science at Toronto Metropolitan University. I am very passionate about deep learning, machine learning and data science!
 
+[Check out my personal portfolio](https://elliot-sones.vercel.app/) 
 
 <!-- Streak Stats (Includes total contributions) -->
 <p align="center">
