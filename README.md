@@ -4,6 +4,10 @@
 I am a first-year student in Computer Science at Toronto Metropolitan University. I am very passionate about deep learning, machine learning and data science!
 
 
+<!-- Streak Stats (Includes total contributions) -->
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Elliot-Sones&theme=dark&hide_border=true" alt="Elliot's Streak Stats" />
+</p>
 
 
 ## ✨My focuses 
@@ -24,3 +28,4 @@ Backend applications:
 Front end: 
 - ReactJS
 - NodeJS
+
