@@ -1,15 +1,13 @@
 <h1 align="center">Hey There👋 I'm Elliot! </h1>
  
-I am a first-year student in Computer Science at Toronto Metropolitan University. I am very passionate about AI, deep learning, and applying it to cool projects! 
+I am a first-year student in Computer Science at Toronto Metropolitan University. I am very passionate about AI, deep learning, and applying it to cool projects! [Learn more about me on my personal website!](https://www.elliotsones.com/)
 
 <!-- Streak Stats (Includes total contributions) -->
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Elliot-Sones&theme=dark&hide_border=true" alt="Elliot's Streak Stats" />
 </p>
 
-<p align="center">
-  <a href="https://elliot-sones.vercel.app/">Learn more about me on my personal website!</a>
-</p>
+
 
 ### ✨My Interests 
 - Deep learning and Neural networks (MLP, CNNs, RNN (GRU+LSTM), transformers)
