@@ -7,12 +7,6 @@ I am a first-year student in Computer Science at Toronto Metropolitan University
   <img src="https://streak-stats.demolab.com?user=Elliot-Sones&theme=dark&hide_border=true" alt="Elliot's Streak Stats" />
 </p>
 
-
-
-### ✨My Interests 
-- Deep learning and Neural networks (MLP, CNNs, RNN (GRU+LSTM), transformers)
-- Reinforcement Learning
-
 ---
 
 ### 🤖Tech Stack
