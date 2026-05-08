@@ -1,6 +1,6 @@
 <h1 align="center">Hey There👋 I'm Elliot! </h1>
  
-I am a first-year student in Computer Science at Toronto Metropolitan University. I am very passionate about AI, deep learning, and applying it to cool projects! [Learn more about me on my personal website!](https://www.elliotsones.com/)
+I am a first-year student in Computer Science at Toronto Metropolitan University, currently working as a Machine Learning Research Intern at NTangible. I am very passionate about AI, deep learning, and applying it to cool projects! [Learn more about me on my personal website!](https://www.elliotsones.com/)
 
 <!-- Streak Stats (Includes total contributions) -->
 <p align="center">
