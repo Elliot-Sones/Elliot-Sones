@@ -1,4 +1,4 @@
-<h1 align="center">Hey There👋 I'm Elliot! </h1>
+<h1 align="center">Hey There 👋 I'm Elliot! </h1>
  
 I am a first-year student in Computer Science at Toronto Metropolitan University. I am very passionate about AI, deep learning, and applying it to cool projects! [Learn more about me on my personal website!](https://www.elliotsones.com/)
 
@@ -9,7 +9,7 @@ I am a first-year student in Computer Science at Toronto Metropolitan University
 
 ---
 
-### 🤖Tech Stack
+### 🤖 Tech Stack
 <div align="left">
   <a href="https://www.python.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" /></a>
   <a href="https://pytorch.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="PyTorch" /></a>
@@ -21,7 +21,7 @@ I am a first-year student in Computer Science at Toronto Metropolitan University
 
 ---
 
-### ✉️Connect with me
+### ✉️ Connect with me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/elliot-sones)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/1362890550428176466)
