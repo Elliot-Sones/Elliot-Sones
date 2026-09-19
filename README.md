@@ -1,6 +1,12 @@
-<h1 align="center">Hey There👋 I'm Elliot! </h1>
+<h1 align="center">Hey There👋! </h1>
  
-I am a first-year student in Computer Science at Toronto Metropolitan University. I am very passionate about AI, deep learning, and applying it to cool projects! [Learn more about me on my personal website!](https://www.elliotsones.com/)
+I'm Elliot, a Computer Science student at Toronto Metropolitan University. 
+
+I'm currently interning at TrajektSports, where I'm building their new system for logistics/operations. I'm also Tech Lead for NTangible where I am leading their product and research team.
+
+I am very passionate about AI, deep learning, and applying it to cool projects! [Learn more about me on my personal website!](https://www.elliotsones.com/). Outside of work, I like to listen to music and play soccer!
+
+
 
 <!-- Streak Stats (Includes total contributions) -->
 <p align="center">
