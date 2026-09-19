@@ -18,7 +18,7 @@ I am very passionate about AI, deep learning, and applying it to cool projects! 
 ### 🤖Tech Stack
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Elliot-Sones/Elliot-Sones/main/assets/tech-stack.svg?v=1" alt="Python, TypeScript, JavaScript, C++, Java, Swift, Bash, PyTorch, NumPy, pandas, scikit-learn, Jupyter, React, Next.js, Tailwind CSS, Three.js, Node.js, Express, FastAPI, HTML5, CSS3, PostgreSQL, MySQL, MongoDB, Supabase, Docker, Google Cloud, AWS, Vercel, Git" width="880" />
+  <img src="https://raw.githubusercontent.com/Elliot-Sones/Elliot-Sones/main/assets/tech-stack.svg?v=2" alt="Python, TypeScript, JavaScript, C++, Java, Swift, PyTorch, CUDA, NumPy, pandas, scikit-learn, Jupyter, React, Next.js, Tailwind, Three.js, Node.js, Express, FastAPI, HTML5, CSS3, PostgreSQL, MySQL, MongoDB, Supabase, Docker, Google Cloud, AWS, Vercel, Git" width="880" />
 </p>
 
 ---

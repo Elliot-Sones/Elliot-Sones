@@ -12,9 +12,11 @@ import base64
 import pathlib
 import urllib.request
 
-CDN = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons"
+DEVICON = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons"
+SIMPLE = "https://cdn.jsdelivr.net/npm/simple-icons@13/icons"
 
-# (label, devicon path)
+# (label, icon source). "simple:" sources come from simple-icons and are
+# monochrome, so they carry a tint colour; devicon ships no CUDA or NVIDIA logo.
 ICONS = [
     ("Python", "python/python-original"),
     ("TypeScript", "typescript/typescript-original"),
@@ -22,15 +24,15 @@ ICONS = [
     ("C++", "cplusplus/cplusplus-original"),
     ("Java", "java/java-original"),
     ("Swift", "swift/swift-original"),
-    ("Bash", "bash/bash-original"),
     ("PyTorch", "pytorch/pytorch-original"),
+    ("CUDA", "simple:nvidia#76B900"),
     ("NumPy", "numpy/numpy-original"),
     ("pandas", "pandas/pandas-original"),
     ("scikit-learn", "scikitlearn/scikitlearn-original"),
     ("Jupyter", "jupyter/jupyter-original"),
     ("React", "react/react-original"),
     ("Next.js", "nextjs/nextjs-original"),
-    ("Tailwind CSS", "tailwindcss/tailwindcss-original"),
+    ("Tailwind", "tailwindcss/tailwindcss-original"),
     ("Three.js", "threejs/threejs-original"),
     ("Node.js", "nodejs/nodejs-original"),
     ("Express", "express/express-original"),
@@ -48,42 +50,58 @@ ICONS = [
     ("Git", "git/git-original"),
 ]
 
-ICON = 38          # logo box, px
-CHIP = 58          # rounded tile behind each logo, px
-GAP = 16           # space between tiles, px
-HEIGHT = 74        # svg height, px
+ICON = 40          # logo box, px
+CHIP_W = 92        # rounded tile width, px
+CHIP_H = 84        # rounded tile height, px
+GAP = 14           # space between tiles, px
+HEIGHT = 100       # svg height, px
 VIEW_W = 880       # visible width, px
-SECONDS = 45       # one full loop
+SECONDS = 50       # one full loop
+LABEL_SIZE = 11.5  # caption size, px
+
+# No webfonts: an <img>-loaded SVG cannot fetch anything external, so captions
+# fall back through the viewer's own system stack.
+FONT = "system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
 
 # Several devicon logos are near-black (Next.js, Vercel, Express, Three.js,
-# Bash, AWS). A light tile behind every logo keeps the strip readable on
-# GitHub's dark theme and stays near-invisible on the light one.
+# AWS). A light tile behind every logo keeps the strip readable on GitHub's
+# dark theme and stays near-invisible on the light one.
 
 
-def fetch(path: str) -> str:
-    with urllib.request.urlopen(f"{CDN}/{path}.svg", timeout=30) as r:
+def fetch(source: str) -> str:
+    if source.startswith("simple:"):
+        name, _, colour = source[len("simple:"):].partition("#")
+        url = f"{SIMPLE}/{name}.svg"
+    else:
+        name, colour, url = source, "", f"{DEVICON}/{source}.svg"
+    with urllib.request.urlopen(url, timeout=30) as r:
         raw = r.read()
+    if colour:
+        raw = raw.replace(b"<path ", f'<path fill="#{colour}" '.encode(), 1)
     return base64.b64encode(raw).decode("ascii")
 
 
 def main() -> None:
-    step = CHIP + GAP
+    step = CHIP_W + GAP
     strip_w = step * len(ICONS)
-    chip_y = (HEIGHT - CHIP) / 2
-    icon_y = (HEIGHT - ICON) / 2
-    inset = (CHIP - ICON) / 2
+    chip_y = (HEIGHT - CHIP_H) / 2
+    icon_y = chip_y + 13
+    label_y = chip_y + CHIP_H - 16
 
     tiles = []
-    for i, (label, path) in enumerate(ICONS):
-        b64 = fetch(path)
+    for i, (label, source) in enumerate(ICONS):
+        b64 = fetch(source)
         x = i * step
+        mid = x + CHIP_W / 2
         tiles.append(
             f'    <g>\n'
-            f'      <title>{label}</title>\n'
-            f'      <rect x="{x}" y="{chip_y:g}" width="{CHIP}" height="{CHIP}" rx="14" '
+            f'      <rect x="{x}" y="{chip_y:g}" width="{CHIP_W}" height="{CHIP_H}" rx="16" '
             f'fill="#ffffff" fill-opacity="0.94" stroke="#0f172a" stroke-opacity="0.08"/>\n'
-            f'      <image x="{x + inset:g}" y="{icon_y:g}" width="{ICON}" height="{ICON}" '
+            f'      <image x="{mid - ICON / 2:g}" y="{icon_y:g}" width="{ICON}" height="{ICON}" '
             f'href="data:image/svg+xml;base64,{b64}"/>\n'
+            f'      <text x="{mid:g}" y="{label_y:g}" text-anchor="middle" '
+            f'font-family="{FONT}" font-size="{LABEL_SIZE}" font-weight="500" '
+            f'fill="#0f172a" fill-opacity="0.82">{label.replace("&", "&amp;")}</text>\n'
             f'    </g>'
         )
         print(f"  fetched {label}")
