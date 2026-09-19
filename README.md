@@ -16,14 +16,10 @@ I am very passionate about AI, deep learning, and applying it to cool projects! 
 ---
 
 ### 🤖Tech Stack
-<div align="left">
-  <a href="https://www.python.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" /></a>
-  <a href="https://pytorch.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="PyTorch" /></a>
-  <a href="https://numpy.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="NumPy" /></a>
-  <a href="https://www.mysql.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="MySQL" /></a>
-  <a href="https://www.postgresql.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL" /></a>
-  <a href="https://cloud.google.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" alt="Google Cloud" /></a>
-</div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Elliot-Sones/Elliot-Sones/main/assets/tech-stack.svg?v=1" alt="Python, TypeScript, JavaScript, C++, Java, Swift, Bash, PyTorch, NumPy, pandas, scikit-learn, Jupyter, React, Next.js, Tailwind CSS, Three.js, Node.js, Express, FastAPI, HTML5, CSS3, PostgreSQL, MySQL, MongoDB, Supabase, Docker, Google Cloud, AWS, Vercel, Git" width="880" />
+</p>
 
 ---
 
