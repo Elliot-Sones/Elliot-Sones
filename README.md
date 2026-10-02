@@ -4,8 +4,10 @@ I'm [**Elliot**](https://www.elliotsones.com/), a Computer Science student at To
 
 I'm currently interning at [**@TrajektSports**](https://www.trajektsports.com/), where I'm building their new system for logistics/operations. I'm also Tech Lead for [**@NTangible**](https://ntangible.co/) where I am leading their product and research team.
 
-I am very passionate about AI, deep learning, and applying it to cool projects! [Learn more about me on my personal website!](https://www.elliotsones.com/). Outside of work, I like to listen to music and play soccer!
-
+I am very passionate about AI, deep learning, and applying it to cool projects. Outside of work, I like to listen to music and play soccer!
+<p align="center">
+  <img src="https://www.elliotsones.com/" alt="Learn more about me on my personal website!" />
+</p>
 
 
 <!-- Streak Stats (Includes total contributions) -->
