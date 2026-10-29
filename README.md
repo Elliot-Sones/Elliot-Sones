@@ -7,11 +7,8 @@ I'm currently interning at [**@TrajektSports**](https://www.trajektsports.com/),
 I am very passionate about AI, deep learning, and applying it to cool projects. Outside of work, I like to listen to music and play soccer!
 
 <p align="center">
-  <a href="https://www.elliotsones.com/">
-    <img src="https://img.shields.io/badge/Website-elliotsones.com-black?style=for-the-badge" alt="Learn more about me on my personal website!" />
-  </a>
+  <a href="https://www.elliotsones.com/">Learn more about me on my personal website!</a>
 </p>
-
 
 <!-- Streak Stats (Includes total contributions) -->
 <p align="center">
